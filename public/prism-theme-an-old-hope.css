@@ -1,0 +1,135 @@
+/*
+ * An Old Hope
+ */
+
+/*
+From https://github.com/JesseLeite/an-old-hope-syntax-atom/blob/master/styles/colors.less
+@very-light-grey: #cbcdd2;
+@light-grey: #848794;
+@grey: #686b78;
+@dark-grey: #45474f;
+@very-dark-grey: #1c1d21;
+
+@vader: #eb3d54;   // Vader's lightsaber.
+@luke: #ef7c2a;     // Luke's pilot uniform.
+@threepio: #e5cd52; // Human cyborg relations.
+@yoda: #78bd65;    // Fear is the path to the dark side.
+@artoo: #4fb4d8;   // Whistle. Bloop.
+*/
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #cbcdd2;
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+	font-size: 3vh;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #1c1d21;
+	border: 5px solid #45474f;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+}
+
+.token.comment,
+.token.block-comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #848794;
+}
+
+.token.punctuation {
+	color: #cbcdd2;
+}
+
+.token.tag,
+.token.attr-name,
+.token.namespace,
+.token.deleted {
+	color: #eb3d54;
+}
+
+.token.function-name {
+	color: #4fb4d8;
+}
+
+.token.boolean,
+.token.number,
+.token.function {
+	color: #ef7c2a;
+}
+
+.token.property,
+.token.class-name,
+.token.constant,
+.token.symbol {
+	color: #e5cd52;
+}
+
+.token.selector,
+.token.important,
+.token.atrule,
+.token.keyword,
+.token.builtin {
+	color: #eb3d54;
+}
+
+.token.string,
+.token.char,
+.token.attr-value,
+.token.regex,
+.token.variable {
+	color: #78bd65;
+}
+
+.token.operator,
+.token.entity,
+.token.url {
+	color: #4fb4d8;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+
+.token.inserted {
+	color: green;
+}
