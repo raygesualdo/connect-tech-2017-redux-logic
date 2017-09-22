@@ -376,7 +376,9 @@ Nice to Haves
         <Heading caps>More To Learn</Heading>
         <List>
           <Appear>
-            <ListItem textSize="6vh">Multiple actions types and type RegEx</ListItem>
+            <ListItem textSize="6vh">
+              Multiple actions types and type RegEx
+            </ListItem>
           </Appear>
           <Appear>
             <ListItem textSize="6vh">Throttling</ListItem>
@@ -388,7 +390,9 @@ Nice to Haves
             <ListItem textSize="6vh">Dispatching multiple times</ListItem>
           </Appear>
           <Appear>
-            <ListItem textSize="6vh">Adding/merging/replacing logic at runtime</ListItem>
+            <ListItem textSize="6vh">
+              Adding/merging/replacing logic at runtime
+            </ListItem>
           </Appear>
           <Appear>
             <ListItem textSize="6vh">Adding dependencies at runtime</ListItem>
@@ -399,7 +403,6 @@ Nice to Haves
         </List>
       </Slide>
       <Slide bgColor="tertiary">
-        {/* Image needed */}
         <Heading caps lineHeight={1.4} textColor="primary">
           Tame the Async Redux Beast with redux-logic
         </Heading>
