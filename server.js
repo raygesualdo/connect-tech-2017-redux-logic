@@ -19,7 +19,7 @@ app.use(
 
 app.use(require('webpack-hot-middleware')(compiler))
 
-app.use(express.static('public'))
+app.use('/public', express.static('public'))
 
 app.get('*', (req, res) => res.sendFile(join(__dirname, 'index.html')))
 
